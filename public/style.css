@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+/* /////////////////////////////////////////////////////
+//////////////////////LOGO/////////////////////////////
+/////////////////////////////////////////////////// */
+#logo{
+    width:100%;
+    height: auto;
+    border-bottom: 1px solid black;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+#logo img{
+    height: 80px;
+    margin: 10px;
+    /* border: 1px solid pink; */
+}
+#logo h1{
+    /* border: 1px solid red; */
+    position: relative;
+    margin-top: 30px;
+    margin-right: 15px;
+    float: right;
+
+}
+/* /////////////////////////////////////////////////////
+//////////////////////REGISTER AND LOGIN///////////////
+/////////////////////////////////////////////////// */
+#welcomeContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#welcomeHeader{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.container{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 25px;
+}
+.container form{
+    width: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.container input{
+    margin: 10px;
+    border: 1px solid blue;
+    padding: 5px;
+    width: 90%;
+}
+.container button{
+    margin-top: 10px;
+}
+.container h1{
+    margin-bottom: 20px;
+}
+.container p{
+    margin: 15px;
+}
+/* /////////////////////////////////////////////////////
+//////////////////////PROFILE/////////////////////////
+/////////////////////////////////////////////////// */
+#profilePicBigContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+#profileStart{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* border: 1px solid red; */
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+#profile{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: auto;
+    height: 300px;
+}
+#profile img{
+    height: 45%;
+}
+#startLinks{
+    width: auto;
+    height: 300px;
+    /* border: 1px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#startLinks h1{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+/* /////////////////////////////////////////////////////
+//////////////////////UPLOADER/////////////////////////
+/////////////////////////////////////////////////// */
+#uploader{
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0,0,0,0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+#innerUploader{
+    background-color: black;
+    width: auto;
+    height: auto;
+    padding: 50px;
+    border: 1px solid green;
+}
+#closeDiv{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border: 1px solid blue;
+}
+#close{
+    font-size: 50px;
+    color: white;
+    position: relative;
+    bottom: 280px;
+    left: 880px;
+    cursor: pointer;
+}
+#close:hover {
+    color: red;
+}
+/* /////////////////////////////////////////////////////
+//////////////////////ProfileView///////////////////////
+/////////////////////////////////////////////////// */
+#profileView{
+    border: 1px solid pink;
+    width: auto;
+    margin: 20px;
+}
+#profileView img{
+    height: 200px;
+}
+/* /////////////////////////////////////////////////////
+//////////////////////ALL USERZ///////////////////////
+/////////////////////////////////////////////////// */
+#innerUserz{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#friends{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+#wannabees{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.eachUser{
+    display: flex;
+    width: auto;
+    height: auto;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 10px;
+}
+.eachUser img{
+    height: 200px;
+}
+/* /////////////////////////////////////////////////////
+//////////////////////OnlineUser///////////////////////
+/////////////////////////////////////////////////// */
+#onlinePeople{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#onlinePeople img{
+    width: 250px;
+}
+#onlineUser{
+    display: flex;
+    margin: 15px;
+    width: 250px;
+    flex-direction: column;
+    border: 1px solid black;
+}
+/* /////////////////////////////////////////////////////
+//////////////////////CHAT///////////////
+/////////////////////////////////////////////////// */
+#chatComponent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.chatDisplay{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    overflow: hidden;
+}
+.chatMessage{
+    border: 1px solid pink;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 30%;
+}
+.chatMessage img{
+    width: 80px;
+}
+.chatMessage h1{
+    margin: 0px;
+    color: red;
+}
+.chatMessage p{
+    font-size: 8px;
+}
+#chatTextBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#resultz img{
+    width: 200px;
+}
+#userzzzResult{
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 1px solid black;
+}
+#profileDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#addBio{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    letter-spacing: 5px;
+}
